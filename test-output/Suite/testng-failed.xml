@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" name="Simple(failed)" parallel="tests">
+    <classes>
+      <class name="TestNG1.Assertions">
+        <methods>
+          <include name="assertnotnull"/>
+          <include name="setup"/>
+          <include name="load_url"/>
+          <include name="asserttrue"/>
+          <include name="tearDown"/>
+          <include name="assertfalse"/>
+          <include name="assertnull"/>
+        </methods>
+      </class> <!-- TestNG1.Assertions -->
+    </classes>
+  </test> <!-- Simple(failed) -->
+</suite> <!-- Failed suite [Suite] -->
